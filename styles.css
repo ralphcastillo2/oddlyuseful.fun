@@ -42,13 +42,14 @@ img {
 
 /* Hero Section */
 .hero-section {
-    padding: 4rem 0;
+    padding: 4rem 0 8rem 0;  /* Increased bottom padding */
     min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--light-color);
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .hero-content {
@@ -340,10 +341,18 @@ footer h5 {
 
 /* Hero Buttons */
 .hero-buttons {
-    display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
-    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+
+.hero-buttons .btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.hero-buttons .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* Product Card Enhancements */
