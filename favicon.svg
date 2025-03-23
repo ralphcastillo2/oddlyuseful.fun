@@ -3,7 +3,9 @@
     <!-- Background circle -->
     <circle cx="16" cy="16" r="16" fill="#007bff"/>
     
-    <!-- "OU" letters stylized -->
+    <!-- "O" letter -->
     <path d="M10 8C7.8 8 6 9.8 6 12v8c0 2.2 1.8 4 4 4h2c2.2 0 4-1.8 4-4v-8c0-2.2-1.8-4-4-4h-2zM10 12h2v8h-2v-8z" fill="white"/>
-    <path d="M20 8c-2.2 0-4 1.8-4 4v8c0 2.2 1.8 4 4 4h2c2.2 0 4-1.8 4-4v-8c0-2.2-1.8-4-4-4h-2zM20 12h2v8h-2v-8z" fill="white"/>
+    
+    <!-- "U" letter - modified to be more U-shaped -->
+    <path d="M18 8v12c0 2.2 1.8 4 4 4h2c2.2 0 4-1.8 4-4V8h-4v12h-2V8h-4z" fill="white"/>
 </svg> 
