@@ -31,12 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
     scrollLinks.forEach(link => {
         link.addEventListener('click', smoothScroll);
     });
-    
-    // Specifically handle the hero section button
-    const heroButton = document.querySelector('.hero-buttons .btn');
-    if (heroButton) {
-        heroButton.addEventListener('click', smoothScroll);
-    }
 });
 
 // Smooth scrolling for anchor links

@@ -339,22 +339,6 @@ footer h5 {
     font-size: 1.2em;
 }
 
-/* Hero Buttons */
-.hero-buttons {
-    margin-top: 2.5rem;
-}
-
-.hero-buttons .btn {
-    padding: 0.8rem 2rem;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-}
-
-.hero-buttons .btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
 /* Product Card Enhancements */
 .product-buttons {
     margin-top: 1rem;
