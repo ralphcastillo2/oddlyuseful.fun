@@ -42,15 +42,19 @@ img {
 
 /* Hero Section */
 .hero-section {
-    padding-top: 6rem;
-    min-height: 100vh;
+    padding: 4rem 0;
+    min-height: 60vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: var(--light-color);
+    text-align: center;
 }
 
 .hero-content {
-    padding: 2rem 0;
+    padding: 1rem 0;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .hero-section::before {
@@ -68,11 +72,14 @@ img {
 .hero-section h1 {
     color: var(--dark-color);
     margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+    line-height: 1.2;
 }
 
 .hero-section .lead {
     color: var(--secondary-color);
     margin-bottom: 2rem;
+    font-size: 1.25rem;
 }
 
 /* Enhanced Card Styles */
@@ -204,12 +211,15 @@ footer h5 {
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-section {
-        padding-top: 5rem;
-        text-align: center;
+        padding: 3rem 0;
     }
     
-    .hero-content {
-        padding: 1rem 0;
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-section .lead {
+        font-size: 1.1rem;
     }
     
     .hero-section img {
