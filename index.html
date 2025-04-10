@@ -88,19 +88,36 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link active" href="#home" data-translate="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#products">Products</a>
+                        <a class="nav-link" href="blog.html" data-translate="blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="#products" data-translate="products">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="about.html" data-translate="about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="privacy.html">Privacy</a>
+                        <a class="nav-link" href="contact.html" data-translate="contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="privacy.html" data-translate="privacy">Privacy</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe"></i> <span data-translate="language">Language</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item active" href="#" data-lang="en">English</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="fr">Français</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="it">Italiano</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="de">Deutsch</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="zh">中文</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="ru">Русский</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -113,8 +130,8 @@
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8">
                     <div class="hero-content">
-                        <h1 class="display-4 fw-bold">Discover Amazing Products</h1>
-                        <p class="lead">Find the most useful and unique products on Amazon that you never knew you needed!</p>
+                        <h1 class="display-4 fw-bold" data-translate="heroTitle">Discover Amazing Products</h1>
+                        <p class="lead" data-translate="heroSubtitle">Find the most useful and unique products on Amazon that you never knew you needed!</p>
                     </div>
                 </div>
             </div>
@@ -124,7 +141,7 @@
     <!-- Products Section -->
     <section id="products" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5">Our Amazing Products</h2>
+            <h2 class="text-center mb-5" data-translate="productsTitle">Our Amazing Products</h2>
             <div class="row g-4">
                 <!-- Howdy Bottle Stoppers -->
                 <div class="col-md-4">
@@ -139,25 +156,25 @@
                         <div class="product-info">
                             <h3>Howdy Bottle Stoppers</h3>
                             <p class="description">This cute wine stopper will surely be appreciated by wine lovers among your friends.</p>
-                            <a href="https://amzn.to/41WyHf5" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/41WyHf5" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Microwavable Ramen Cooker -->
+                <!-- Propane Flamethrower -->
                 <div class="col-md-4">
                     <div class="product-card">
                         <div class="product-image-container">
-                            <img src="https://m.media-amazon.com/images/I/71MzLR4NzeL._AC_SX569_.jpg" 
-                                alt="Microwavable Ramen Cooker" 
+                            <img src="https://m.media-amazon.com/images/I/411wj4kpYOL._MCnd_AC_.jpg" 
+                                alt="Propane Flamethrower" 
                                 class="img-fluid product-image" 
                                 onerror="this.onerror=null; this.src='https://via.placeholder.com/400x400?text=Microwavable+Ramen+Cooker'; this.style.padding='20px';"
                                 loading="lazy">
                         </div>
                         <div class="product-info">
-                            <h3>Microwavable Ramen Cooker</h3>
-                            <p class="description">Perfect ramen every time! No more messy microwave spills or uneven cooking. Makes dorm life easier!</p>
-                            <a href="https://amzn.to/4hxed2e" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <h3>Propane Flamethrower</h3>
+                            <p class="description">Campfire starting will never be the same again once you watch your fires roar to life with this big propane flamethrower.</p>
+                            <a href="https://amzn.to/3E8lbwX" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -175,7 +192,7 @@
                         <div class="product-info">
                             <h3>Hand Hold Casting Kit</h3>
                             <p class="description">Create lasting memories with this hand casting kit. Perfect for couples, families, or special occasions!</p>
-                            <a href="https://amzn.to/4iOEWIF" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/4iOEWIF" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -193,7 +210,7 @@
                         <div class="product-info">
                             <h3>Bacon Strips Bandages</h3>
                             <p class="description">Make minor injuries fun with these realistic bacon strip adhesive bandages. Great novelty gift!</p>
-                            <a href="https://amzn.to/4iSKZMt" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/4iSKZMt" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -211,7 +228,7 @@
                         <div class="product-info">
                             <h3>Yodeling Pickle</h3>
                             <p class="description">Push the button and listen to this pickle yodel! The most bizarre and entertaining desk toy ever!</p>
-                            <a href="https://amzn.to/4hxeX7w" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/4hxeX7w" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -229,7 +246,7 @@
                         <div class="product-info">
                             <h3>LED Flashlight Gloves</h3>
                             <p class="description">Waterproof gloves with built-in LED lights. Perfect for working in dark spaces or outdoor activities!</p>
-                            <a href="https://amzn.to/4bYYBDC" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/4bYYBDC" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -247,7 +264,7 @@
                         <div class="product-info">
                             <h3>Talking Tables Casino Night Kit</h3>
                             <p class="description">Perfect for a family games night, dinner party with friends! It also makes a great Christmas or Birthday gift!</p>
-                            <a href="https://amzn.to/4iS4tAS" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/41R2Dcy" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -265,7 +282,7 @@
                         <div class="product-info">
                             <h3>Motorbike Pizza Cutter</h3>
                             <p class="description">Novelty pizza cutter makes the pizza cutting more interesting. Ideal gift for pizza lovers and bicycle lovers</p>
-                            <a href="https://amzn.to/4iRzGUK" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/4iRzGUK" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -283,7 +300,7 @@
                         <div class="product-info">
                             <h3>Airplane Foot Hammock</h3>
                             <p class="description">Make long flights comfortable with this portable foot hammock. Perfect for travelers!</p>
-                            <a href="https://amzn.to/41TDyxB" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/41TDyxB" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -301,7 +318,7 @@
                         <div class="product-info">
                             <h3>Poop Timer</h3>
                             <p class="description">Hilarious bathroom timer that makes toilet breaks more entertaining. Perfect gag gift!</p>
-                            <a href="https://amzn.to/4kROEMk" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/4kROEMk" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -319,25 +336,25 @@
                         <div class="product-info">
                             <h3>Spoon Holder for Stove Top</h3>
                             <p class="description">Bewitching Kitchen Spoon Rest. Spellbinding Cooking Staple. A Sprinkle of fun.</p>
-                            <a href="https://amzn.to/41V215G" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/41V215G" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Farting Poop Pen -->
+                <!-- Collapsible Microwave Splatter Glass Cover -->
                 <div class="col-md-4">
                     <div class="product-card">
                         <div class="product-image-container">
-                            <img src="https://m.media-amazon.com/images/I/81kOSgTS8XL._AC_SY355_.jpg" 
-                                alt="Farting Poop Pen" 
+                            <img src="https://m.media-amazon.com/images/I/51YIlSlgbPL._AC_SX569_.jpg" 
+                                alt="Collapsible Microwave Splatter Glass Cover" 
                                 class="img-fluid product-image" 
                                 onerror="this.onerror=null; this.src='https://via.placeholder.com/400x400?text=Farting+Poop+Pen'; this.style.padding='20px';"
                                 loading="lazy">
                         </div>
                         <div class="product-info">
-                            <h3>Farting Poop Pen</h3>
-                            <p class="description">A pen that makes funny sounds! Perfect for adding humor to any situation.</p>
-                            <a href="https://amzn.to/4hBYVJF" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <h3>Collapsible Microwave Splatter Glass Cover</h3>
+                            <p class="description">When heating leftovers to prepare snacks, feel the convenience brought by Collapsible Microwave Splatter Glass Cover!</p>
+                            <a href="https://amzn.to/3DZVH4U" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -355,43 +372,43 @@
                         <div class="product-info">
                             <h3>Electronics Cleaning Brush</h3>
                             <p class="description">Keep your electronics dust-free with this specialized cleaning brush. Perfect for keyboards and devices!</p>
-                            <a href="https://amzn.to/41PTCR1" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <a href="https://amzn.to/41PTCR1" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Wireless Sleeping Headphones -->
+                <!-- Handheld Battery Powered Chainsaw -->
                 <div class="col-md-4">
                     <div class="product-card">
                         <div class="product-image-container">
-                            <img src="https://m.media-amazon.com/images/I/713Y4kSRhXL._AC_SL1500_.jpg" 
-                                alt="Wireless Sleeping Headphones" 
+                            <img src="https://m.media-amazon.com/images/I/81pPhUPT8FL._AC_SX569_.jpg" 
+                                alt="Handheld Battery Powered Chainsaw" 
                                 class="img-fluid product-image" 
                                 onerror="this.onerror=null; this.src='https://via.placeholder.com/400x400?text=Wireless+Sleeping+Headphones'; this.style.padding='20px';"
                                 loading="lazy">
                         </div>
                         <div class="product-info">
-                            <h3>Wireless Sleeping Headphones</h3>
-                            <p class="description">Comfortable headphones designed for sleeping. Perfect for side-sleepers and relaxation!</p>
-                            <a href="https://amzn.to/4hCe5hX" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <h3>Handheld Battery Powered Chainsaw</h3>
+                            <p class="description">Perfect for pruning saw tasks and firewood cutting. This mini chainsaw delivers fast, smooth cuts through wood, branches, and logs.</p>
+                            <a href="https://amzn.to/4j2fYWA" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Fruit Shaped Pillows -->
+                <!-- Wireless Under Counter Lights -->
                 <div class="col-md-4">
                     <div class="product-card">
                         <div class="product-image-container">
-                            <img src="https://m.media-amazon.com/images/I/81SUKAR3LKL._AC_SX569_.jpg" 
-                                alt="Fruit Shaped Pillows" 
+                            <img src="https://m.media-amazon.com/images/I/71UKDJ+7MeL._AC_SX679_.jpg" 
+                                alt="Wireless Under Counter Lights" 
                                 class="img-fluid product-image" 
                                 onerror="this.onerror=null; this.src='https://via.placeholder.com/400x400?text=Prank+Tire+Valve+Caps'; this.style.padding='20px';"
                                 loading="lazy">
                         </div>
                         <div class="product-info">
-                            <h3>Fruit Shaped Pillows</h3>
-                            <p class="description">Funny and relax atmosphere design, cute and novel. Can be used as a decorative shaped throw pillow, price affordable gift!</p>
-                            <a href="https://amzn.to/4iwOx7g" class="btn btn-primary" target="_blank" rel="nofollow">View on Amazon</a>
+                            <h3>Wireless Under Counter Lights</h3>
+                            <p class="description">Great wireless under counter lights for kitchen, closet, cupboard, pantry, basement, stairs, hallway, bookshelf, etc!</p>
+                            <a href="https://amzn.to/4iwOx7g" class="btn btn-primary" target="_blank" rel="nofollow" data-translate="viewOnAmazon">View on Amazon</a>
                         </div>
                     </div>
                 </div>
@@ -404,9 +421,9 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h2>About OddlyUseful.fun</h2>
-                    <p>We curate and showcase the most interesting and useful products available on Amazon. Our goal is to help you discover items that can make your life easier, more enjoyable, or just more interesting!</p>
-                    <p>As an Amazon Associate, we earn from qualifying purchases. This helps us maintain our site and continue bringing you great product recommendations.</p>
+                    <h2 data-translate="aboutTitle">About OddlyUseful.fun</h2>
+                    <p data-translate="aboutText1">We curate and showcase the most interesting and useful products available on Amazon. Our goal is to help you discover items that can make your life easier, more enjoyable, or just more interesting!</p>
+                    <p data-translate="aboutText2">As an Amazon Associate, we earn from qualifying purchases. This helps us maintain our site and continue bringing you great product recommendations.</p>
                 </div>
                 <div class="col-lg-6">
                     <img src="https://via.placeholder.com/600x400" alt="About Us" class="img-fluid rounded shadow">
@@ -420,19 +437,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h5>OddlyUseful.fun</h5>
-                    <p>Your destination for unique and entertaining products that make life more interesting.</p>
+                    <h5 data-translate="footerTitle">OddlyUseful.fun</h5>
+                    <p data-translate="footerSubtitle">Your destination for unique and entertaining products that make life more interesting.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="affiliate-disclaimer">
-                        <h5>Affiliate Disclosure</h5>
-                        <p>As an Amazon Associate, I earn from qualifying purchases. This means that I receive a small commission when you buy products through the links on this website, at no additional cost to you. Your support helps keep this website running and allows me to continue finding oddly useful products to share with you.</p>
+                        <h5 data-translate="affiliateTitle">Affiliate Disclosure</h5>
+                        <p data-translate="affiliateText">As an Amazon Associate, I earn from qualifying purchases. This means that I receive a small commission when you buy products through the links on this website, at no additional cost to you. Your support helps keep this website running and allows me to continue finding oddly useful products to share with you.</p>
                     </div>
                 </div>
             </div>
             <div class="row mt-3">
                 <div class="col-12 text-center">
-                    <p class="mb-0">&copy; 2024 OddlyUseful.fun. All rights reserved.</p>
+                    <p class="mb-0" data-translate="copyright">&copy; 2024 OddlyUseful.fun. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -442,5 +459,72 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="script.js"></script>
+    <!-- Translations -->
+    <script src="translations.js"></script>
+    
+    <!-- Language Switcher Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get all language dropdown items
+            const languageItems = document.querySelectorAll('.dropdown-item[data-lang]');
+            
+            // Get the current language from localStorage or default to 'en'
+            const currentLang = localStorage.getItem('selectedLanguage') || 'en';
+            
+            // Set initial active state
+            document.querySelector(`[data-lang="${currentLang}"]`).classList.add('active');
+            
+            // Function to update translations
+            function updateTranslations(lang) {
+                // Update HTML lang attribute
+                document.documentElement.lang = lang;
+                
+                // Update all elements with data-translate attribute
+                document.querySelectorAll('[data-translate]').forEach(element => {
+                    const key = element.getAttribute('data-translate');
+                    if (translations[lang] && translations[lang][key]) {
+                        element.textContent = translations[lang][key];
+                    }
+                });
+                
+                // Update all elements with data-translate-placeholder attribute
+                document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+                    const key = element.getAttribute('data-translate-placeholder');
+                    if (translations[lang] && translations[lang][key]) {
+                        element.placeholder = translations[lang][key];
+                    }
+                });
+            }
+            
+            // Initial translation
+            updateTranslations(currentLang);
+            
+            // Add click event listeners to all language items
+            languageItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove active class from all items
+                    languageItems.forEach(i => i.classList.remove('active'));
+                    
+                    // Add active class to clicked item
+                    this.classList.add('active');
+                    
+                    // Get selected language
+                    const selectedLang = this.getAttribute('data-lang');
+                    
+                    // Save selected language to localStorage
+                    localStorage.setItem('selectedLanguage', selectedLang);
+                    
+                    // Update the globe icon text
+                    document.querySelector('#languageDropdown').innerHTML = 
+                        `<i class="fas fa-globe"></i> ${this.textContent}`;
+                    
+                    // Update translations
+                    updateTranslations(selectedLang);
+                });
+            });
+        });
+    </script>
 </body>
 </html> 
