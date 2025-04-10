@@ -7,32 +7,36 @@
     <meta name="description" content="Discover 10 bizarre yet fascinating Amazon products that will surprise and delight you. From quirky gadgets to unusual lifestyle accessories, find unique items you never knew you needed.">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <script src="translations.js"></script>
+    <script src="translations.js" defer></script>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="main-nav">
             <div class="nav-container">
-                <a href="index.html" class="logo">OddlyUseful.fun</a>
+                <a href="index.html" class="logo">
+                    <img src="images/logo.svg" alt="OddlyUseful.fun Logo" width="40" height="40">
+                    <span>OddlyUseful.fun</span>
+                </a>
                 <div class="nav-links">
                     <a href="index.html" data-en="Home" data-pt="Início">Home</a>
-                    <a href="blog.html" data-en="Blog" data-pt="Blog">Blog</a>
-                    <button id="languageToggle" onclick="toggleLanguage()">PT</button>
+                    <a href="blog.html" class="active" data-en="Blog" data-pt="Blog">Blog</a>
+                    <button class="language-toggle" onclick="toggleLanguage()">PT</button>
                 </div>
             </div>
         </nav>
     </header>
 
     <main class="blog-post">
-        <article>
-            <h1 data-en="10 Weird Amazon Products You Didn't Know You Needed" data-pt="10 Produtos Estranhos da Amazon Que Você Não Sabia Que Precisava">10 Weird Amazon Products You Didn't Know You Needed</h1>
-            
-            <div class="post-meta">
-                <span class="date" data-en="Published on" data-pt="Publicado em">Published on</span>
-                <time datetime="2024-03-19">March 19, 2024</time>
+        <article class="post-content">
+            <div class="post-header">
+                <h1 data-en="10 Weird Amazon Products You Didn't Know You Needed" data-pt="10 Produtos Estranhos da Amazon Que Você Não Sabia Que Precisava">10 Weird Amazon Products You Didn't Know You Needed</h1>
+                <div class="post-meta">
+                    <span class="date" data-en="Published on" data-pt="Publicado em">Published on</span>
+                    <time datetime="2024-03-19">March 19, 2024</time>
+                </div>
             </div>
 
-            <div class="post-content">
+            <div class="post-body">
                 <p data-en="Online shopping has a way of surprising us, and Amazon never disappoints when it comes to discovering truly bizarre yet fascinating items. Whether it's a yodeling pickle or a spoon rest shaped like a ravioli, the marketplace has a knack for combining functionality with fun, often in the quirkiest ways possible. These weird-Amazon-products not only spark curiosity but sometimes leave us wondering, 'Do I actually need this?'" data-pt="As compras online têm uma maneira de nos surpreender, e a Amazon nunca decepciona quando se trata de descobrir itens verdadeiramente bizarros, mas fascinantes. Seja um picles cantando ou um suporte para colher em formato de ravioli, o marketplace tem o dom de combinar funcionalidade com diversão, frequentemente das maneiras mais peculiares possíveis. Esses produtos estranhos da Amazon não apenas despertam curiosidade, mas às vezes nos deixam pensando: 'Eu realmente preciso disso?'">
                     Online shopping has a way of surprising us, and Amazon never disappoints when it comes to discovering truly bizarre yet fascinating items. Whether it's a yodeling pickle or a spoon rest shaped like a ravioli, the marketplace has a knack for combining functionality with fun, often in the quirkiest ways possible. These weird-Amazon-products not only spark curiosity but sometimes leave us wondering, "Do I actually need this?"
                 </p>
@@ -166,16 +170,8 @@
 
     <footer>
         <div class="footer-content">
-            <p data-en="© 2024 OddlyUseful.fun - All rights reserved" data-pt="© 2024 OddlyUseful.fun - Todos os direitos reservados">© 2024 OddlyUseful.fun - All rights reserved</p>
+            <p>&copy; 2024 OddlyUseful.fun. <span data-en="All rights reserved." data-pt="Todos os direitos reservados.">All rights reserved.</span></p>
         </div>
     </footer>
-
-    <script>
-        // Initialize language based on stored preference or default to English
-        document.addEventListener('DOMContentLoaded', function() {
-            const storedLang = localStorage.getItem('language') || 'en';
-            setLanguage(storedLang);
-        });
-    </script>
 </body>
 </html> 
