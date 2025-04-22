@@ -610,14 +610,84 @@ footer h5 {
 
 .blog-posts {
     min-height: 400px;
-    display: flex;
-    align-items: center;
 }
 
-.blog-posts .lead {
-    color: var(--bs-secondary);
-    max-width: 600px;
-    margin: 0 auto;
+/* Blog Card Styles */
+.blog-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.blog-image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 60%; /* 5:3 Aspect Ratio */
+    overflow: hidden;
+}
+
+.blog-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.blog-card:hover .blog-image {
+    transform: scale(1.05);
+}
+
+.blog-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--dark-color);
+    line-height: 1.4;
+}
+
+.blog-excerpt {
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.blog-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.blog-date, .blog-category {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.blog-date i, .blog-category i {
+    color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
@@ -628,5 +698,17 @@ footer h5 {
     .blog-header .lead,
     .blog-posts .lead {
         font-size: 1rem;
+    }
+    
+    .blog-title {
+        font-size: 1.1rem;
+    }
+    
+    .blog-excerpt {
+        font-size: 0.9rem;
+    }
+    
+    .blog-content {
+        padding: 1.25rem;
     }
 } 
