@@ -3,9 +3,9 @@
     <!-- Background circle -->
     <circle cx="16" cy="16" r="16" fill="#007bff"/>
     
-    <!-- "O" letter -->
-    <path d="M10 8C7.8 8 6 9.8 6 12v8c0 2.2 1.8 4 4 4h2c2.2 0 4-1.8 4-4v-8c0-2.2-1.8-4-4-4h-2zM10 12h2v8h-2v-8z" fill="white"/>
+    <!-- "O" letter - stylized -->
+    <path d="M8 12C8 9.8 9.8 8 12 8h2c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4h-2c-2.2 0-4-1.8-4-4v-8zm4 2v8h2v-8h-2z" fill="white"/>
     
-    <!-- "H" letter - modified to be more H-shaped -->
-    <path d="M18 8v12c0 2.2 1.8 4 4 4h2c2.2 0 4-1.8 4-4V8h-4v12h-2V8h-4z" fill="white"/>
+    <!-- "h" letter - stylized -->
+    <path d="M18 8v16h4v-4h2c2.2 0 4-1.8 4-4v-4c0-2.2-1.8-4-4-4h-6zm4 4v4h-2v-4h2z" fill="white"/>
 </svg> 
