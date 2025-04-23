@@ -42,3 +42,14 @@ ErrorDocument 403 /403.html
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# URL Rewriting Rules
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^blog$ blog.html [L]
+RewriteRule ^odd-kitchen-gadgets$ odd-kitchen-gadgets.html [L]
+RewriteRule ^odd-home-office-gadgets$ odd-home-office-gadgets.html [L]
+RewriteRule ^odd-gift-ideas$ odd-gift-ideas.html [L]
+RewriteRule ^about$ about.html [L]
+RewriteRule ^contact$ contact.html [L]
+RewriteRule ^privacy$ privacy.html [L]
