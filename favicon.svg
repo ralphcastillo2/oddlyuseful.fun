@@ -6,6 +6,6 @@
     <!-- "O" letter - stylized -->
     <path d="M8 12C8 9.8 9.8 8 12 8h2c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4h-2c-2.2 0-4-1.8-4-4v-8zm4 2v8h2v-8h-2z" fill="white"/>
     
-    <!-- "h" letter - stylized -->
-    <path d="M18 8v16h4v-4h2c2.2 0 4-1.8 4-4v-4c0-2.2-1.8-4-4-4h-6zm4 4v4h-2v-4h2z" fill="white"/>
+    <!-- "h" letter - more clearly h-shaped -->
+    <path d="M18 8v16h2v-6h2c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2h-4zm2 4v4h-2v-4h2z" fill="white"/>
 </svg> 
