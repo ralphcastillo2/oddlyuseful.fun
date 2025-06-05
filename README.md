@@ -1,4 +1,4 @@
-# OddlyHandy.com
+# OddOrWerid.com
 
 A curated collection of unique and useful Amazon products. This website helps users discover interesting and practical items available on Amazon.
 
@@ -35,7 +35,7 @@ A curated collection of unique and useful Amazon products. This website helps us
 
 ## Contributing
 
-This is a personal project for oddlyuseful.fun. If you find any issues, please report them in the issues section.
+This is a personal project for oddorweird.com. If you find any issues, please report them in the issues section.
 
 ## License
 
