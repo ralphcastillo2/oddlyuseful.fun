@@ -1,4 +1,4 @@
-# OddOrWerid.com
+# OddOrWeird.com
 
 A curated collection of unique and useful Amazon products. This website helps users discover interesting and practical items available on Amazon.
 
